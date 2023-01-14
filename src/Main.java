@@ -1,5 +1,4 @@
 import java.util.Random;
-
 /*
 fill array with random numbers specified in constructor
  */
