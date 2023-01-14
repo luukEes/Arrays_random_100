@@ -8,7 +8,7 @@ public class Main {
         int [] randNumbers = new int[20];
         Random rClass = new Random();
         for (int i = 0; i < randNumbers.length; i++) {
-            randNumbers [i] = rClass.nextInt();
+            randNumbers [i] = rClass.nextInt(100);
         }
         for (int i = 0 ; i<randNumbers.length; i++) {
             System.out.print(randNumbers[i] + " ");
